@@ -1,5 +1,5 @@
 ---
-  - hosts: claritas
+  - hosts: demo
     tasks:
     - name: "Epel install"
       dnf: 
