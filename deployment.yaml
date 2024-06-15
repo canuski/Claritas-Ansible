@@ -1,0 +1,7 @@
+---
+  - hosts: claritas
+    tasks:
+    - name: "Epel install"
+      dnf: 
+       name:
+        - epel-release 
